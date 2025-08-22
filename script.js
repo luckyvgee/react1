@@ -1,12 +1,12 @@
 const element = React.createElement(
   'h1',
-  {className: 'title'},
+  { className: 'title' },
   'Hello'
 );
 
 const button = React.createElement(
   'button', {
-    onClick: () => { console.log(`liked message: ${messageId}`) }
+  onClick: () => { console.log("liked message"); }
 },
   'Like'
 )
