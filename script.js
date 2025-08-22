@@ -5,11 +5,10 @@ const element = React.createElement(
 );
 
 const button = React.createElement(
- 'button',
-  {
-    onClick: () => { console.log(`liked message: ${messageId}`); }
-  },
- 'Like'
+  'button', {
+    onClick: () => { console.log(`liked message: ${messageId}`) }
+},
+  'Like'
 )
 
 
